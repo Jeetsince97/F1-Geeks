@@ -1,11 +1,9 @@
-import React from "react";
-
-const NavBar = () => {
+function NavBar() {
   return (
-    <nav className="relative w-full flex flex-wrap items-center justify-between py-3 bg-red-600 text-white drop-shadow-md ">
-      <div className="font-bold px-4 py-2">F1 Geeks</div>
+    <nav className="relative flex flex-wrap items-center justify-between w-full py-3 text-white bg-red-600 drop-shadow-md ">
+      <div className="px-4 py-2 font-bold">F1 Geeks</div>
     </nav>
   );
-};
+}
 
 export default NavBar;
